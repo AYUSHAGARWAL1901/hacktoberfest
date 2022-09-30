@@ -5,7 +5,7 @@ import wikipedia #pip install wikipedia
 import webbrowser
 import os
 import smtplib
-
+import captureImg as ci   #pip install captureImg
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
 # print(voices[1].id)
@@ -107,3 +107,5 @@ if __name__ == "__main__":
             except Exception as e:
                 print(e)
                 speak("Sorry my friend hacktober bhai. I am not able to send this email")    
+        elif 'capture image' in query:
+            ci.captureImg()
