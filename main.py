@@ -1,4 +1,5 @@
 import pyttsx3 #pip install pyttsx3
+import captureImg.py
 import speech_recognition as sr #pip install speechRecognition
 import datetime
 import wikipedia #pip install wikipedia
@@ -118,5 +119,14 @@ if __name__ == "__main__":
         elif "log off" in statement or "sign out" in statement:
             speak("Ok , your pc will log off in 10 sec make sure you exit from all applications")
             subprocess.call(["shutdown", "/l"])
+		        elif 'ask' in statement:
+            speak('I can answer to computational and geographical questions  and what question do you want to ask now')
+            question=takeCommand()
+            app_id="Paste your unique ID here "
+            client = wolframalpha.Client('R2K75H-7ELALHR35X')
+            res = client.query(question)
+            answer = next(res.results).text
+            speak(answer)
+            print(answer)
 			
 time.sleep(3)
