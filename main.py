@@ -6,7 +6,12 @@ import webbrowser
 import os
 import smtplib
 import captureImg as ci   #pip install captureImg
-engine = pyttsx3.init('sapi5')
+# init function to get an engine instance for the speech synthesis
+engine = pyttsx3.init()
+ 
+# say method on the engine that passing input text to be spoken
+engine.say('Hello sir, how may I help you, sir.')
+
 voices = engine.getProperty('voices')
 # print(voices[1].id)
 engine.setProperty('voice', voices[0].id)
