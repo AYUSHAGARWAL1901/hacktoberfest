@@ -94,5 +94,28 @@ Project maintainers must accept your pull/merge requests for them to count towar
 Have 4 pull/merge requests accepted between October 1 and October 31 to complete Hacktoberfest
 
 The first 40,000 participants (maintainers and contributors) who complete Hacktoberfest can elect to receive one of two prizes: a tree planted in their name, or the Hacktoberfest 2022 t-shirt.
+ 
+ MEASURES TO REDUCE SPAM
+SPAMMY PULL/MERGE REQUESTS WILL BE LABELED AS “SPAM.”
+Maintainers: label spammy requests “spam” and close them. PR/MRs labeled “spam” won’t count toward Hacktoberfest. Contributors with 2+ spammy PR/MRs are disqualified.
+
+PULL/MERGE REQUESTS MUST BE APPROVED BY A MAINTAINER.
+Maintainers accept PR/MRs by merging them, labeling them “hacktoberfest-accepted,” or giving them an overall approving review. Accepted PR/MRs enter a 7-day review window, during which approval can be revoked by the maintainer or by our team.
+
+BAD REPOSITORIES WILL BE EXCLUDED.
+PR/MRs should be useful to maintainers. Repos that encourage simplistic PR/MRs (like adding a name or profile to a list or arbitrarily curating content) will be excluded from Hacktoberfest. Remember: quantity is fun, quality is key.
+
+Found a repository that you think doesn’t follow our values? REPORT IT TO US AND WE’LL TAKE A LOOK.
+
+AVOID SUBMITTING LOW-QUALITY PULL/MERGE REQUESTS.
+Hacktoberfest is about contributing meaningfully to open-source projects. Here are some examples of low-quality pull/merge requests that won’t count towards Hacktoberfest.
+
+Automated pull/merge requests: scripted opening pull requests to remove whitespace, fix typos or optimize images.
+Disruptive pull/merge requests: taking someone else’s branch/commits and making a pull request.
+Anything that a project maintainer flags as spam.
+Anything that looks like an attempt to duplicate your pull request count for October.
+Multiple pull/merge requests for the same issue that are unnecessary -for example five PR/MRs to remove a stray whitespace is not.
+
+
 
   
